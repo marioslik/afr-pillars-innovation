@@ -62,15 +62,7 @@ function init() {
     // =========================
     clickTag  = 'http://google.com'
 
-    // Button hover
-    // =========================
-    $('.button').on('mouseenter', () => {
-        TweenLite.to('.arrow-circle', .2, {autoAlpha:1, x:0, ease:Power1.easeOut, overwrite:'all'})
-        TweenLite.to('.cta-copy', .2, {x:-5, ease:Power1.easeOut, overwrite:'all'})
-    }).on('mouseleave', () => {
-        TweenLite.to('.arrow-circle', .2, {autoAlpha:0, x:-10, ease:Power1.easeOut, overwrite:'all'})
-        TweenLite.to('.cta-copy', .2, {x:0, ease:Power1.easeOut, overwrite:'all'})
-    })
+
 
     $('#banner').on('click', () => {
         console.log('clicktag invoked')
