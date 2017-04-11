@@ -15,12 +15,11 @@ var frame01, frame02, frame03, frame04, frame05;
 $(document).ready(() => {
     FastClick.attach(document.body);
     init();
-    console.log('02 - ready')
 })
 
 function init() {
 
-    console.log('init')
+    //console.log('init')
 
     // Init CSS
     // =========================
@@ -48,8 +47,8 @@ function init() {
 
     $('.frame-2 p').html('PARANOID<br>DROID')
     $('.frame-3 p').html('THE RISE OF<br>AUTOMATION')
-    $('.frame-4 p').html('STAY AHEAD<br>OF THE CURVE<br>WITH THE AFR')
-    $('.frame-5 p').html('TRY THE AFR<br>FREE FOR 1 MONTH')
+    $('.frame-4 p').html('STAY AHEAD<br>OF THE CURVE<br>WITH THE AFR.')
+    $('.frame-5 p').html('TRY THE AFR<br>FREE FOR 1 MONTH.')
 
     $('.cta-copy').html('Find out more')
 
